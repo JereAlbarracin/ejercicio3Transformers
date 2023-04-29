@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../multimedia/HD-wallpaper-dark-space-black-dark-galaxy-space-stars-universe.jpg);
+    background-size: 100%;
+
+}
+
+body .titulo {
+    float: inline-end;
+}
+
+nav ul li {
+    /*display: inline-block;'*/
+    float:right;
+    width: 20%;
+    position: relative;
+    font-size: 30px;
+    font-family: 'Roboto Condensed', sans-serif;
+    opacity: 0.6;
+    margin: 30px;
+    padding: 35px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+nav ul li:hover {
+    opacity: 1.5;
+}
+
+.mainTrailer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px;
+    margin: 4rem;
+}
+
+.trailer {
+    display: flex;
+    margin: 0.5rem;
+}
+
+.trailer iframe {
+    border: 3px double white;
+}
+
+.sinopsis {
+    color: antiquewhite;
+    padding: 40px;
+    width: 560px;
+    height: 460px;
+    font-size: large;
+}
+
+.espacio {
+    color: transparent;
+    width: 400px;
+    height: 10px;
+    border: none;
+}
+
+.mainHistoria {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 0.5rem;
+}
+
+.historiaTitulo1,
+.curiosidedesTitulo, .optimusTitulo,
+.megatronTitulo {
+    color: antiquewhite;
+    padding: 30px;
+}
+
+.historia1,
+.optimusPrime,
+.megatron {
+    display: flex;
+    color: antiquewhite;
+    padding: 20px;
+
+}
+
+.historiaTitulo2,
+.beeTitulo {
+    color: antiquewhite;
+    padding: 30px;
+}
+
+.historia2,
+.bumblebee {
+    display: flex;
+    color: antiquewhite;
+    padding: 20px;
+}
+
+.bee,
+.optimusPrimeFoto,
+.megatronFoto {
+    width: 320px;
+    height: 380px;
+    padding-left: 2rem;
+}
+
+.optimus,
+.bumblebeefoto {
+    width: 320px;
+    height: 320px;
+    padding-right: 2rem;
+}
+
+.espacio2 {
+    color: transparent;
+    width: 500px;
+    height: 120px;
+    border: none;
+}
+
+.mainCuriosidades {
+    display: flex;
+    padding: 20px;
+    margin: 0.5rem;
+}
+
+.curiosidades {
+    display: flex;
+    flex-direction: column;
+    color: antiquewhite;
+    padding: 10px;
+    width: 65%;
+}
+
+hr {
+    color: transparent;
+    border: none;
+    height: 50px;
+}
+
+.fotos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.reparto {
+    padding-left: 3rem;
+    padding-bottom: 1rem;
+}
